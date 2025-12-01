@@ -1,0 +1,31 @@
+# C++ compiled files
+*.o
+*.out
+*.exe
+*.app
+*.dll
+*.so
+*.dylib
+
+# Build directories
+build/
+bin/
+obj/
+Debug/
+Release/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Advent of Code specific
+# Uncomment if you want to ignore your input files
+# *.in
+
+# Dependency directories
+vendor/
+node_modules/
