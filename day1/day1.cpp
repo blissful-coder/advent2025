@@ -74,14 +74,14 @@ int main(){
         auto [newState, zerosPassedThrough] = mover0x434C49434B(currentState, number, direction);
         currentState = newState;
         
-        std::cout<<"Moving:"<<direction<<number<<"->"<<currentState;
-        std::cout<<" (passed through 0: "<<zerosPassedThrough<<" times)\n";
+        // std::cout<<"Moving:"<<direction<<number<<"->"<<currentState;
+        // std::cout<<" (passed through 0: "<<zerosPassedThrough<<" times)\n";
         
         // Count if we end at 0 (for both Part 1 and Part 2)
         if(currentState == 0) {
             part1Count++;
             part2Count++;
-            std::cout<<"  Ended at 0!\n";
+            // std::cout<<"  Ended at 0!\n";
         }
         
         // Add zeros passed through during rotation (only for Part 2)
